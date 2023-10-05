@@ -1,0 +1,10 @@
+.presentation {  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: radial-gradient(100% 100% at 50% 0%, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0.30) 90.63%);
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+}
