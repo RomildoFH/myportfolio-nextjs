@@ -1,0 +1,53 @@
+.carousel-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80vh;
+}
+
+.carousel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.carousel-arrow {
+  width: 10%;
+  align-self: center;
+  text-align: center;
+}
+
+.carousel-card {
+  width: 30%;
+  min-width: 200px;
+  max-width: 250px;
+  max-height: 150px;
+  margin: 20px 20px;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-controller {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.carousel-buttom {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: none;
+  margin: 1%;
+}
+
+.btn-activated {
+  background-color: gray;
+  transition: background-color 1s ease-out;
+}

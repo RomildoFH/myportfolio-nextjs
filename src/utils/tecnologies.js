@@ -1,11 +1,23 @@
-[
+const images = [
   {
-    "name": "c-sharp",
-    "thumb": "https://i.postimg.cc/vTqRd3Sv/c-sharp.png"
+    "name": "reactjs",
+    "thumb": "https://i.postimg.cc/SRK5VcNY/React-icon-svg.png"
+  },
+  {
+    "name": "html",
+    "thumb": "https://i.postimg.cc/m2kfSWtp/HTML5-logo-and-wordmark.png"
   },
   {
     "name": "css3",
     "thumb": "https://i.postimg.cc/43zr3JSy/CSS3-logo-and-wordmark.png"
+  },
+  {
+    "name": "javascript",
+    "thumb": "https://i.postimg.cc/hPYFyZmD/Java-Script-Logo.png"
+  },
+  {
+    "name": "jest",
+    "thumb": "https://i.postimg.cc/8zf2qddh/jest.png"
   },
   {
     "name": "figma",
@@ -18,22 +30,6 @@
   {
     "name": "git hub",
     "thumb": "https://i.postimg.cc/3wMs7y9z/Git-Hub-Logo.png"
-  },
-  {
-    "name": "html",
-    "thumb": "https://i.postimg.cc/m2kfSWtp/HTML5-logo-and-wordmark.png"
-  },
-  {
-    "name": "javascript",
-    "thumb": "https://i.postimg.cc/hPYFyZmD/Java-Script-Logo.png"
-  },
-  {
-    "name": "jest",
-    "thumb": "https://i.postimg.cc/8zf2qddh/jest.png"
-  },
-  {
-    "name": "reactjs",
-    "thumb": "https://i.postimg.cc/SRK5VcNY/React-icon-svg.png"
   },
   {
     "name": "redux",
@@ -76,7 +72,13 @@
     "thumb": "https://i.postimg.cc/nrm6BN17/Agile-PNG-Isolated-Photos.png"
   },
   {
+    "name": "c-sharp",
+    "thumb": "https://i.postimg.cc/vTqRd3Sv/c-sharp.png"
+  },
+  {
     "name": "trello",
     "thumb": "https://i.postimg.cc/t4k833Fr/Trello-Logo.png"
   }
 ]
+
+export default images;

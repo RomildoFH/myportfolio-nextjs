@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import FotoperfilProps from '@/interface/FotoperfilProps';
 import styles from './Fotoperfil.module.css';
 
