@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  width: 100vw;
+  height: 30vh;
+  padding: 50px 50px 80px 50px;
+  font-weight: 600;
+}
+.contacts-section {
+  color: white;
+  width: 50%;
+}
+
+.contacts-title {
+  display: block;
+  text-align: center;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.footer p {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 30px;
+    align-items: center;
+    height: 250px;
+  }
+}
