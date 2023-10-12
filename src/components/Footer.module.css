@@ -28,6 +28,8 @@
 .link {
   text-decoration: none;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 @media screen and (max-width: 600px) {
