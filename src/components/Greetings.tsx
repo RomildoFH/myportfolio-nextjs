@@ -12,7 +12,7 @@ function Greetings (){
         src={scroll}
         width={50}
         height={50}
-        className={style.scroll}
+        className={`${style.scroll} ${style['blink-class']} ${style['translate-vertical']}`}
         alt='scroll mouse down image'
       />
     </section>

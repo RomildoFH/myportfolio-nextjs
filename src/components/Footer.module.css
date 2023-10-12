@@ -5,6 +5,7 @@
   padding: 50px 50px 80px 50px;
   font-weight: 600;
 }
+
 .contacts-section {
   color: white;
   width: 50%;
@@ -35,7 +36,11 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 0px 30px;
-    align-items: center;
+    align-items: baseline;
     height: 250px;
+  }
+
+  .contacts-section {
+    width: 100%;
   }
 }
