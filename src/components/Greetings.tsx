@@ -45,7 +45,7 @@ function Greetings() {
 
     if (action === 'erase' && currentPhrase.length === 0) {
       setAction('write');
-      setPhrase('secound');
+      phrase === 'first' ? setPhrase('secound') : setPhrase('first');
     }
 
     if (phrase === 'secound' && action === 'write' && currentPhrase !== newScoundPhrase) {
