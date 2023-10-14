@@ -10,8 +10,8 @@ function Greetings() {
   const [currentPhrase, setCurrentPhrase] = useState('');
   const [action, setAction] = useState('write');
 
-  const firstPhrase = 'Olá, meu nome é Romildo    ';
-  const secoundPhrase = 'Eu sou um desenvolvedor web full-stack    ';
+  const firstPhrase = 'Olá, meu nome é Romildo';
+  const secoundPhrase = 'Eu sou um desenvolvedor web full-stack';
 
   const writePhrase = (letters: string, phrase: string) => {
     const index = letters.length;
