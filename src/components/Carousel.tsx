@@ -1,6 +1,5 @@
-'use client'
-
-import { useState } from 'react';
+'use client';
+import { useEffect, useState } from 'react';
 import styles from './Carousel.module.css';
 import images from '../utils/tecnologies';
 import Image from 'next/image';
@@ -19,6 +18,19 @@ export default function Counter() {
     }
   };
 
+  useEffect(() => {
+    const cards = document.querySelectorAll(`.${styles['carousel-image']}`);
+    console.log(cards)
+    cards.forEach((e, index) => {
+      setTimeout(() => {
+        e.classList.add(styles.show);
+        e.classList.remove(styles.hidden);
+        e.classList.add(styles.transitionFinished);
+        e.classList.remove(styles.leftHidden);
+      }, (500 + index * 300));
+    });
+  }, [count]);
+
   return (
     <section className={styles['carousel-display']}>
       <div className={styles['carousel-arrow']} onClick={() => handleDirection('back')}>
@@ -34,7 +46,7 @@ export default function Counter() {
                 alt={e.name}
                 width={100}
                 height={100}
-                className={styles['carousel-image']}
+                className={`${styles['carousel-image']} ${styles.hidden} ${styles.leftHidden}`}
               />
             </article>
           ))

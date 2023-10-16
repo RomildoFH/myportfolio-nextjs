@@ -13,3 +13,22 @@
   width: 90%;
   word-wrap: break-word;
 }
+
+.hidden {
+  opacity: -1;
+  transition: all 3s;
+}
+
+.show {
+  opacity: 1;
+  color: white;
+}
+
+.leftHidden {
+  translate: -100px;
+  transition: all 3s;
+}
+
+.transitionFinished {
+  translate: 0;
+}

@@ -5,7 +5,7 @@ import styles from './Footer.module.css';
 
 function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer}`}>
       <section className={styles['contacts-section']}>
         <h3 className={styles['contacts-title']}>CONTATO</h3>
         <a className={styles.link} href='https://wa.me/5587999241374' target='_blank'>

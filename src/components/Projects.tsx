@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard';
 
 function Projects() {
   return (
-    <section className={styles['projects-container']}>
+    <section className={`${styles['projects-container']}`}>
       <h2>Meus projetos</h2>
       {
         projects.map((project) => (
